@@ -1,0 +1,441 @@
+@media only screen and (max-width: 1164px) {
+    #section-1 .left-box h1 {
+        font-size: 45px;
+    }
+
+    #section-1 .right-box .img-box {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    #section-3 .left-box .img-box {
+        width: 20rem;
+        height: 21rem;
+    }
+
+    #section-3 .right-box h2 {
+        font-size: 30px;
+    }
+
+    #section-5 .left-box h2 {
+        font-size: 30px;
+    }
+
+    #section-5 .right-box div {
+        width: 20rem;
+        height: 21rem;
+    }
+
+    #section-5 .right-box div img:nth-child(2) {
+        width: 76%;
+        right: -7rem;
+    }
+
+    #section-5 .right-box {
+        padding-right: 5rem;
+    }
+
+    #section-6>h2 {
+        font-size: 30px;
+    }
+
+    #section-6 .bottom-box {
+        gap: 1rem;
+        flex-wrap: wrap;
+        row-gap: 5rem;
+    }
+
+    #section-7 .right-box div {
+        width: 20rem;
+        height: 21rem;
+    }
+
+    #section-7 .left-box h2 {
+        font-size: 30px;
+    }
+
+    #section-9 .top h2 {
+        font-size: 30px;
+    }
+
+    #section-4>div {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    #section-8 .containers {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+    #section-1 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    #section-1 .left-box>p {
+        margin: auto;
+        text-align: center;
+    }
+
+    #section-1 .left-box h1 {
+        text-align: center;
+    }
+
+    #section-1 .left-box #booking-btns {
+        justify-content: center;
+    }
+
+    #section-1 .left-box #rating {
+        justify-content: center;
+    }
+
+    #section-2 #business-view {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    #section-3 {
+        flex-direction: column;
+    }
+
+    #section-3 .left-box .img-box {
+        margin: auto;
+    }
+
+    #section-3 .right-box h2 {
+        width: 100%;
+    }
+
+    #section-3 .right-box>p:nth-child(2) {
+        width: 100%;
+    }
+
+    #section-3 .left-box,
+    #section-3 .right-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section-3 .right-box .contact-btn button {
+        margin: auto;
+    }
+
+    #section-3 .right-box .right-tick {
+        justify-content: center;
+    }
+
+    #section-5 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    #section-5 .left-box p {
+        width: 100%;
+    }
+
+    #section-5 .left-box {
+        text-align: center;
+    }
+
+    #section-5 .left-box form {
+        margin: auto;
+    }
+
+    #section-7 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    #section-7 .left-box p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section-7 .left-box h2 {
+        text-align: center;
+    }
+
+    #section-7 .left-box .projects-box {
+        justify-content: center;
+    }
+
+    #section-7 .left-box .contact {
+        justify-content: center;
+    }
+
+    #section-6 .bottom-box {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+    header button {
+        display: none;
+    }
+
+    header nav ul {
+        gap: 3.5rem;
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        background: #FAE0E1;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 9999;
+        transition: .5s;
+    }
+
+    nav .logo2 {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    nav .cloase-icon {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    header .menu-icon {
+        display: block;
+    }
+
+    nav ul.active {
+        left: 0;
+    }
+
+    footer .bottom {
+        flex-direction: column-reverse;
+        row-gap: 2rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+    header .contact-forms input {
+        width: 100%;
+    }
+
+    header .contact-forms textarea {
+        width: 100%;
+    }
+
+    header .contact-forms form {
+        padding: 4rem 2rem rem;
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 625px) {
+    #section-9 .center-container .toggle-btn {
+        max-height: 4.9rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #section-1 .right-box .img-box {
+        width: 15rem;
+        height: 14rem;
+    }
+
+    #section-1 .right-box .img-box #chart-board {
+        left: -25%;
+    }
+
+    #section-1 .right-box .img-box #star-arrow {
+        right: -10%;
+    }
+
+    #section-3 .left-box .img-box {
+        width: 14rem;
+        height: 15rem;
+    }
+
+    #section-3 .left-box .img-box .star-img {
+        top: -8%;
+    }
+
+    #section-3 .left-box .img-box .rope {
+        right: -12%;
+    }
+
+    #section-3 .left-box .img-box .chart-img {
+        right: -32%;
+    }
+
+    #section-5 .right-box div {
+        width: 14rem;
+        height: 15rem;
+    }
+
+    #section-5 .right-box div img:nth-child(2) {
+        right: -27%;
+    }
+
+    #section-5 .right-box div img:nth-child(3) {
+        right: -4%;
+    }
+
+    #section-5 .right-box div img:nth-child(4) {
+        left: -14%;
+    }
+
+    #section-7 .right-box div {
+        width: 14rem;
+        height: 15rem;
+    }
+
+    #section-7 .right-box div img:nth-child(3) {
+        top: -6%;
+    }
+
+    #section-7 .right-box div img:nth-child(2) {
+        width: 69%;
+        right: -30%;
+        bottom: -2rem rem;
+    }
+
+    #section-7 .right-box div img:nth-child(4) {
+        right: -10%;
+    }
+
+    #section-5 .right-box {
+        padding-right: 0;
+    }
+
+    #section-7 .right-box {
+        padding-right: 0;
+    }
+
+    #section-1 .left-box h1 {
+        font-size: 30px;
+    }
+
+    #section-3 .right-box h2 {
+        font-size: 22px;
+    }
+
+    #section-5 .left-box h2 {
+        font-size: 22px;
+    }
+
+    #section-6>h2 {
+        font-size: 22px;
+    }
+
+    #section-6 .bottom-box h3 {
+        font-size: 18px;
+    }
+
+    #section-7 .left-box h2 {
+        font-size: 22px;
+    }
+
+    #section-9 .top h2 {
+        font-size: 22px;
+    }
+
+    footer .top {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 478px) {
+    #section-1 .left-box #booking-btns {
+        flex-wrap: wrap;
+    }
+
+    #section-1 .left-box #rating {
+        flex-wrap: wrap;
+    }
+
+    #section-5 .left-box form {
+        width: 100%;
+    }
+
+    #section-7 .left-box .projects-box {
+        flex-wrap: wrap;
+    }
+
+    #section-7 .left-box .contact {
+        flex-wrap: wrap;
+    }
+    main p {
+        font-size: 14px !important;
+    }
+
+    #section-9 .center-container .toggle-btn h5 button {
+        font-size: 14px;
+    }
+
+    #section-9 .contact-now {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 380px) {
+    footer .top ul {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    #section-6 .bottom-box .img-scroll {
+        width: 100%;
+    }
+
+    #section-9 .center-container .toggle-btn h5 button {
+        padding-right: 2rem;
+    }
+
+    #section-9 .bottom {
+        width: 100%;
+    }
+
+    #section-9 {
+        padding: 0 5%;
+    }
+
+    #section-7 .left-box .projects-box {
+        justify-content: flex-start;
+    }
+
+    #section-3 .right-box .right-tick {
+        justify-content: flex-start;
+    }
+}
