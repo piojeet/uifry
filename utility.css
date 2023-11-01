@@ -180,7 +180,7 @@
 
 
 @media only screen and (max-width: 750px) {
-    header button {
+    header #contact-btn {
         display: none;
     }
 
@@ -437,5 +437,9 @@
 
     #section-3 .right-box .right-tick {
         justify-content: flex-start;
+    }
+
+    header .contact-forms form {
+        padding: 2rem !important;
     }
 }
